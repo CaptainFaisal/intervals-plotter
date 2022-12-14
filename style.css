@@ -1,0 +1,45 @@
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+.ace_editor {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  font: 12px / normal "Monaco", "Menlo", "Ubuntu Mono", "Consolas",
+    "source-code-pro", monospace;
+  direction: ltr;
+  text-align: left;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.row {
+  max-height: 100%;
+}
+#canvas {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 98%;
+}
+#editor {
+  min-height: 100%;
+  border-radius: 5px;
+}
+.cont {
+  margin-top: 20px;
+  height: 800px;
+  overflow: show;
+  margin-left: 50px !important;
+}
+.canvas-container {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  margin: 0px;
+}
+.col-4,
+.col-8 {
+    max-height: 800px;
+}

@@ -1,0 +1,33 @@
+{
+    "canvas": {
+        "offsetX": 50,
+        "offsetY": 50,
+        "unitLengthX": 10,
+        "unitLengthY": 50,
+        "backgroundColor": "white"
+    },
+    "line": {
+        "thickness": 5,
+        "fillColor": "black"
+    },
+    "circle": {
+        "thickness": 1,
+        "radius": 5,
+        "fillColor": "#99fff8"
+    },
+    "conflict": {
+        "fillColor": "red",
+        "fontFace": "Arial",
+        "fontSize": "20px",
+        "fontWeight": "Normal",
+        "fontColor": "red",
+        "textElevation": 10
+    },
+    "coordinate": {
+        "fontFace": "Arial",
+        "fontSize": "10px",
+        "fontWeight":"Normal",
+        "fontColor": "black",
+        "textElevation": -15
+    }
+}
